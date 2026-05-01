@@ -1,0 +1,33 @@
+{
+  "name": "mdf-cli",
+  "version": "0.1.0-alpha",
+  "description": "Reference CLI and binary toolkit for MDF (Modern Document Format).",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mdf": "./bin/mdf.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "example:convert": "node ./bin/mdf.js convert ./examples/input/hello.txt --output ./examples/output/hello.mdf",
+    "example:verify": "node ./bin/mdf.js verify ./examples/output/hello.mdf"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mdf",
+    "document-format",
+    "cli",
+    "binary-format",
+    "security"
+  ]
+}

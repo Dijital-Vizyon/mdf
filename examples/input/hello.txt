@@ -1,0 +1,27 @@
+MDF prototype example document (advanced text fixture).
+
+Purpose:
+- Exercise plain-text conversion and verification (container mode).
+- Provide realistic input for size/speed tests and manual inspection.
+
+Sections:
+1) ASCII text with punctuation: commas, periods, colons:, semicolons; dashes - and --- sequences.
+2) Quotes: "double" and 'single'. Parentheses (like this) and brackets [like this].
+3) Whitespace: tabs	here, multiple   spaces   here, and blank lines below.
+
+
+4) Paths / URLs:
+- ./relative/path/file.txt
+- /absolute/path/example
+- https://example.com/path?query=1&x=2
+
+5) Numbers:
+- int: 0 1 2 3 10 42 999
+- float-ish: 3.14159 2.71828
+- hex-like: 0xDEADBEEF
+
+6) UTF-8 text:
+- café, naïve, résumé
+- Ελληνικά, 日本語, العربية
+
+End of fixture.
